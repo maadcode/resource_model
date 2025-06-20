@@ -10,15 +10,6 @@ clf_type = joblib.load('model_resource_type.pkl')
 clf_format = joblib.load('model_resource_format.pkl')
 encoders = joblib.load('encoders.pkl')
 
-# Features esperadas
-features = [
-    'university_id', 'carreer', 'module_id', 'module_title', 'roadmap_id',
-    'roadmap_title', 'roadmap_level', 'roadmap_category_id', 'country', 'city',
-    'type_assessment_id', 'module_skills', 'module_objectives',
-    'previous_resource_type', 'previous_resource_format',
-    'resource_success_rate', 'resource_popularity'
-]
-
 class PredictionInput(BaseModel):
     university_id: str
     carreer: str
