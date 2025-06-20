@@ -1,0 +1,563 @@
+student_id,university_id,carreer,module_id,module_title,roadmap_id,roadmap_title,roadmap_level,roadmap_category_id,country,city,type_assessment_id,module_skills,module_objectives,previous_resource_type,previous_resource_format,resource_success_rate,resource_popularity,target_resource_type,target_resource_format
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.85,120,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.78,90,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.65,60,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.92,150,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.7,80,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.8,110,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.75,95,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.6,55,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.9,140,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.68,85,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.85,120,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.78,90,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.65,60,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.92,150,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.7,80,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.8,110,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.75,95,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.6,55,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.9,140,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.68,85,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.85,120,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.78,90,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.65,60,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.92,150,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.7,80,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.8,110,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.75,95,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.6,55,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.9,140,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.68,85,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.85,120,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.78,90,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.65,60,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.92,150,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.7,80,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.8,110,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.75,95,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.6,55,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.9,140,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.68,85,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.85,120,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.78,90,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.65,60,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.92,150,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.7,80,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.8,110,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.75,95,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.6,55,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.9,140,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.68,85,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.85,120,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.78,90,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.65,60,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.92,150,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.7,80,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.8,110,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.75,95,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.6,55,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.9,140,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.68,85,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.85,120,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.78,90,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.65,60,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.92,150,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.7,80,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.8,110,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.75,95,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.6,55,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.9,140,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.68,85,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.85,120,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.78,90,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.65,60,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.92,150,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.7,80,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.8,110,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.75,95,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.6,55,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.9,140,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.68,85,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.85,120,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.78,90,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.65,60,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.92,150,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.7,80,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.8,110,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.75,95,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.6,55,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.9,140,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.68,85,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.85,120,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.78,90,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.65,60,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.92,150,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.7,80,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.8,110,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.75,95,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.6,55,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.9,140,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.68,85,Tutorial,Audio
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.85,120,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Perú,Lima,2,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.65,60,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Colombia,Bogotá,1,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.92,150,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Chile,Santiago,2,ETL, Pandas,Procesar datos,Tutorial,Audio,0.7,80,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,1,Clases, Métodos,Entender POO,Artículo,Video,0.8,110,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,2,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.75,95,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,1,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.6,55,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.9,140,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.68,85,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.85,120,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI004,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Chile,Santiago,2,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.91,151,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,1,ETL, Pandas,Procesar datos,Tutorial,Audio,0.71,81,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,2,Clases, Métodos,Entender POO,Artículo,Video,0.81,111,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,1,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.76,96,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,2,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.61,56,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,1,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.89,141,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,2,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.69,86,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Perú,Lima,1,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.86,121,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,2,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.77,92,Artículo,Lectura
+UNI003,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Argentina,Buenos Aires,1,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.66,61,Proyecto,Interactivo
+UNI003,Ingeniería de Sistemas,101,Fundamentos de Python,201,Python,Principiante,301,Argentina,Buenos Aires,2,Variables, Sintaxis,Aprender sintaxis básica,Tutorial,Video,0.85,120,Tutorial,Video
+UNI002,Ingeniería de Software,102,Estructuras de Datos,202,Java,Intermedio,302,México,CDMX,1,Listas, Pilas,Comprender estructuras,Artículo,Lectura,0.78,90,Artículo,Lectura
+UNI001,Ciencia de la Computación,103,POO en C#,203,C#,Avanzado,303,Perú,Lima,2,Clases, Objetos,Aplicar POO,Proyecto,Interactivo,0.65,60,Proyecto,Interactivo
+UNI005,Ingeniería Informática,104,SQL Básico,204,SQL,Principiante,304,Colombia,Bogotá,1,Consultas, Tablas,Crear consultas básicas,Plantillas,Colaborativo,0.92,150,Plantillas,Colaborativo
+UNI004,Ingeneria de Datos,105,ETL con Python,205,Python,Intermedio,305,Chile,Santiago,2,ETL, Pandas,Procesar datos,Tutorial,Audio,0.7,80,Tutorial,Audio
+UNI001,Ingeniería de Sistemas,106,POO en Java,201,Python,Principiante,301,Perú,Lima,1,Clases, Métodos,Entender POO,Artículo,Video,0.8,110,Artículo,Video
+UNI002,Ingeniería de Software,107,Algoritmos,202,Java,Intermedio,302,México,CDMX,2,Algoritmos, Lógica,Resolver problemas,Tutorial,Lectura,0.75,95,Tutorial,Lectura
+UNI003,Ciencia de la Computación,108,Redes Básicas,203,C#,Avanzado,303,Argentina,Buenos Aires,1,TCP/IP, OSI,Comprender redes,Proyecto,Interactivo,0.6,55,Proyecto,Interactivo
+UNI004,Ingeniería Informática,109,HTML y CSS,204,SQL,Principiante,304,Chile,Santiago,2,HTML, CSS,Diseñar páginas,Plantillas,Colaborativo,0.9,140,Plantillas,Colaborativo
+UNI005,Ingeneria de Datos,110,Big Data,205,Python,Intermedio,305,Colombia,Bogotá,1,Big Data, Hadoop,Procesar grandes datos,Tutorial,Audio,0.68,85,Tutorial,Audio
