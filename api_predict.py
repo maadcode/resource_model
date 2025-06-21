@@ -1,63 +1,51 @@
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 import joblib
-import pandas as pd
 
 app = FastAPI()
 
-# Cargar modelos y encoders
-clf_type = joblib.load('model_resource_type.pkl')
-clf_format = joblib.load('model_resource_format.pkl')
-encoders = joblib.load('encoders.pkl')
+# Cargar modelos y codificadores
+model = joblib.load("resource_model.pkl")
+label_encoders = joblib.load("label_encoders.pkl")
+output_classes = joblib.load("output_classes.pkl")
 
-# Features esperadas
-features = [
-    'university_id', 'carreer', 'module_id', 'module_title', 'roadmap_id',
-    'roadmap_title', 'roadmap_level', 'roadmap_category_id', 'country', 'city',
-    'type_assessment_id', 'module_skills', 'module_objectives',
-    'previous_resource_type', 'previous_resource_format',
-    'resource_success_rate', 'resource_popularity'
-]
-
-class PredictionInput(BaseModel):
-    university_id: str
-    carreer: str
-    module_id: int
+class ResourceInput(BaseModel):
     module_title: str
-    roadmap_id: int
     roadmap_title: str
-    roadmap_level: str
-    roadmap_category_id: int
-    country: str
-    city: str
-    type_assessment_id: int
-    module_skills: str
-    module_objectives: str
-    previous_resource_type: str
-    previous_resource_format: str
-    resource_success_rate: float
-    resource_popularity: int
-    age: int
-    education_level: int
-    learning_style: int
-    prior_experience: int
+    roadmap_level: int
+    avg_score: int
+    type_assessment: str
+    categories: str  # no usado en predicción pero recibido
+    formats: str     # no usado en predicción pero recibido
+    total_modules_done: int
 
 @app.post("/predict")
-def predict(input: PredictionInput):
-    # Convertir input a DataFrame
-    input_dict = input.dict()
-    df = pd.DataFrame([input_dict])
-    # Codificar igual que en entrenamiento
-    for col in df.columns:
-        if col in encoders:
-            df[col] = encoders[col].transform(df[col].astype(str))
-    # Predecir
-    pred_type = clf_type.predict(df)[0]
-    pred_format = clf_format.predict(df)[0]
-    # Decodificar
-    type_label = encoders['target_resource_type'].inverse_transform([pred_type])[0]
-    format_label = encoders['target_resource_format'].inverse_transform([pred_format])[0]
+def predict(input: ResourceInput):
+    input_data = {
+        "module_title": label_encoders["module_title"].transform([input.module_title])[0],
+        "roadmap_title": label_encoders["roadmap_title"].transform([input.roadmap_title])[0],
+        "roadmap_level": input.roadmap_level,
+        "avg_score": input.avg_score,
+        "type_assessment": label_encoders["type_assessment"].transform([input.type_assessment])[0],
+        "total_modules_done": input.total_modules_done
+    }
+
+    X = [[
+        input_data["module_title"],
+        input_data["roadmap_title"],
+        input_data["roadmap_level"],
+        input_data["avg_score"],
+        input_data["type_assessment"],
+        input_data["total_modules_done"]
+    ]]
+
+    prediction = model.predict(X)[0]
+    n_cat = len(output_classes["categories"])
+    cat_preds = [output_classes["categories"][i] for i, val in enumerate(prediction[:n_cat]) if val == 1]
+    fmt_preds = [output_classes["formats"][i] for i, val in enumerate(prediction[n_cat:]) if val == 1]
+
     return {
-        "predicted_resource_type": type_label,
-        "predicted_resource_format": format_label
+        "predicted_categories": cat_preds,
+        "predicted_formats": fmt_preds
     }

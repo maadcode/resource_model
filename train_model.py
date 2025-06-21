@@ -1,54 +1,48 @@
+
 import pandas as pd
+import numpy as np
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.multioutput import MultiOutputClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import MultiLabelBinarizer, LabelEncoder
 import joblib
 
-# Cargar datos
-file_path = 'data_entrenamiento_full.csv'  # Corregido: ruta relativa correcta
-data = pd.read_csv(file_path)
+# Cargar dataset
+df = pd.read_csv("training_dataset.csv")
 
-# Columnas de entrada (features)
-features = [
-    'university_id', 'carreer', 'module_id', 'module_title', 'roadmap_id',
-    'roadmap_title', 'roadmap_level', 'roadmap_category_id', 'country', 'city',
-    'type_assessment_id', 'module_skills', 'module_objectives',
-    'previous_resource_type', 'previous_resource_format',
-    'resource_success_rate', 'resource_popularity'
-]
+# Preprocesamiento de multilabels
+def split_multilabel(col):
+    return [item.strip() for item in col.split(',') if item.strip()]
 
-# Columnas objetivo
-label_type = 'target_resource_type'
-label_format = 'target_resource_format'
+df["categories"] = df["categories"].apply(split_multilabel)
+df["formats"] = df["formats"].apply(split_multilabel)
 
-# Codificar variables categóricas
-encoders = {}
-for col in features + [label_type, label_format]:
-    if data[col].dtype == 'object':
-        le = LabelEncoder()
-        data[col] = le.fit_transform(data[col].astype(str))
-        encoders[col] = le
+# Codificación multilabel
+mlb_categories = MultiLabelBinarizer()
+mlb_formats = MultiLabelBinarizer()
+y_categories = mlb_categories.fit_transform(df["categories"])
+y_formats = mlb_formats.fit_transform(df["formats"])
+y = np.hstack([y_categories, y_formats])
 
-# Separar features y labels
-X = data[features]
-y_type = data[label_type]
-y_format = data[label_format]
+# Features
+X = df[["module_title", "roadmap_title", "roadmap_level", "avg_score", "type_assessment", "total_modules_done"]].copy()
+label_encoders = {}
+for col in ["module_title", "roadmap_title", "type_assessment"]:
+    le = LabelEncoder()
+    X[col] = le.fit_transform(X[col])
+    label_encoders[col] = le
 
-# Dividir en train/test
-X_train, X_test, y_type_train, y_type_test, y_format_train, y_format_test = train_test_split(
-    X, y_type, y_format, test_size=0.2, random_state=42
-)
+# Train test split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Entrenar modelos
-clf_type = RandomForestClassifier(n_estimators=100, random_state=42)
-clf_type.fit(X_train, y_type_train)
+# Entrenamiento del modelo
+model = MultiOutputClassifier(RandomForestClassifier(n_estimators=100, random_state=42))
+model.fit(X_train, y_train)
 
-clf_format = RandomForestClassifier(n_estimators=100, random_state=42)
-clf_format.fit(X_train, y_format_train)
-
-# Guardar modelos y encoders
-joblib.dump(clf_type, 'model_resource_type.pkl')
-joblib.dump(clf_format, 'model_resource_format.pkl')
-joblib.dump(encoders, 'encoders.pkl')
-
-print('Modelos entrenados y guardados en la carpeta Modelo.')
+# Guardar modelos
+joblib.dump(model, "resource_model.pkl")
+joblib.dump(label_encoders, "label_encoders.pkl")
+joblib.dump({
+    "categories": mlb_categories.classes_.tolist(),
+    "formats": mlb_formats.classes_.tolist()
+}, "output_classes.pkl")
